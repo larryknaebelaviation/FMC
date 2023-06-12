@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FMC/1.0.0": {
+        "dependencies": {
+          "FlightPlanProcessing": "1.0.0",
+          "spatial": "1.0.0"
+        },
+        "runtime": {
+          "FMC.dll": {}
+        }
+      },
+      "FlightPlanProcessing/1.0.0": {
+        "dependencies": {
+          "spatial": "1.0.0"
+        },
+        "runtime": {
+          "FlightPlanProcessing.dll": {}
+        }
+      },
+      "spatial/1.0.0": {
+        "runtime": {
+          "spatial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FMC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlightPlanProcessing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "spatial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
